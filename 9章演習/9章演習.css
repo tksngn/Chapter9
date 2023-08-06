@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  margin: 0;
   padding: 0;
 }
 
@@ -15,6 +16,7 @@ main {
 }
 
 .step-box {
+  width: 300px;
   margin: 20px 30px 20px 30px;
   padding: 10px 0;
   position: relative;
@@ -22,6 +24,7 @@ main {
 }
 
 .step-box:last-child {
+  margin-right: 0;
 }
 
 .step-img1 {
