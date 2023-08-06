@@ -17,14 +17,14 @@ main {
 
 .step-box {
   width: 300px;
-  margin: 20px 30px 20px 30px;
+  margin: 30px;
   padding: 10px 0;
   position: relative;
   background-color: #eee;
 }
 
 .step-box:last-child {
-  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .step-img1 {
@@ -73,6 +73,11 @@ footer {
   main {
     width: 100%;
     display: block;
+  }
+  .step-box {
+    width: 300px;
+    margin: 20px auto;
+    margin-bottom: 20px;
   }
 }
 
